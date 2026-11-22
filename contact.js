@@ -252,7 +252,7 @@ if (
 const catalog = typeof CATALOG === "undefined" ? [] : CATALOG;
 // Home photo frames reveal once per page visit, with a stagger within each row.
 if (
-  document.body.dataset.page === "index.html" &&
+  document.body.dataset.page === "home.html" &&
   "IntersectionObserver" in window &&
   !matchMedia("(prefers-reduced-motion: reduce)").matches
 ) {

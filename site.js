@@ -126,7 +126,7 @@ if ($('.intro')) {
 if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('pending');e.target.classList.add('visible');observer.unobserve(e.target);}}),{threshold:.08});$$('.reveal').forEach(el=>{el.classList.add('pending');introHandoff.then(()=>observer.observe(el));});}
 const catalog=typeof CATALOG==='undefined'?[]:CATALOG;
 // Home photo frames reveal once per page visit, with a stagger within each row.
-if (document.body.dataset.page === 'index.html' &&
+if (document.body.dataset.page === 'home.html' &&
     'IntersectionObserver' in window &&
     !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   // Animate the four About frames together; reset only after the section exits.

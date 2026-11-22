@@ -1344,7 +1344,7 @@ img[src^="assets/wedding-"][src$="-hd.webp"] {
 
 }
 
-body[data-page="index.html"] .hero-bg {
+body[data-page="home.html"] .hero-bg {
   animation: hero-photo-settle 3.8s cubic-bezier(.22, 1, .36, 1) 0s both;
 }
 
@@ -1367,7 +1367,7 @@ body[data-page="index.html"] .hero-bg {
   scale: none;
 }
 
-  body[data-page="index.html"] .hero-bg {
+  body[data-page="home.html"] .hero-bg {
   animation: none;
   transform: none;
 }
