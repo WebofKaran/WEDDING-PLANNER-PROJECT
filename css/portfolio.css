@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Portfolio entrypoint: filters, inspiration gallery and story dialogs. */
+body[data-page="portfolio.html"] {}

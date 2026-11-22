@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Alternate home-page entrypoint retained for home.html compatibility. */
+body[data-page="index.html"] {}

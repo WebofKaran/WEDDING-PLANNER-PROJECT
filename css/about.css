@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* About page entrypoint: philosophy, approach and invitation sections. */
+body[data-page="about.html"] {}

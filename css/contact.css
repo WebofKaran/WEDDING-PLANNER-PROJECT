@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Contact entrypoint: enquiry form and selected-package summary. */
+body[data-page="contact.html"] {}

@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Demo login and signup page entrypoint. */
+body[data-page="login.html"] {}

@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Privacy and project-limitations page entrypoint. */
+body[data-page="privacy.html"] {}

@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Local demo-profile page entrypoint. */
+body[data-page="profile.html"] {}

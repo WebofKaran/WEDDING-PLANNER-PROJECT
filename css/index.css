@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Home page entrypoint: hero, story, photo strip, services and FAQ. */
+body[data-page="index.html"] {}

@@ -1,0 +1,29 @@
+IMAGE REFRESH
+
+Seven new images generated using the built-in image-generation tool. Existing sharp wedding photographs retained and reused for related cards. Original thumbnails remain as unused assets.
+
+Prompt set: photorealistic editorial Indian wedding photography in warm rose and ivory tones; crisp detail, realistic textures, no watermarks or logos. Subjects: floral mandap and aisle; garden ceremony; reception tablescape; contemporary floral decor; sangeet performance; photographer camera; coordinator planning documents.
+
+Replacement mapping:
+b8f9e.png -> wedding-hero-hd.webp
+builder-hero.png -> wedding-hero-hd.webp
+builder-cta.png -> 11c8b.png
+builder-planning-full.png -> wedding-hero-hd.webp
+builder-planning-partial.png -> wedding-reception-hd.webp
+builder-planning-dayof.png -> wedding-planner-hd.webp
+builder-planning-destination.png -> f022b.png
+builder-style-traditional.png -> 5059a.png
+builder-style-modern.png -> wedding-decor-hd.webp
+builder-style-royal.png -> wedding-reception-hd.webp
+builder-style-garden.png -> wedding-garden-hd.webp
+builder-style-luxury.png -> wedding-reception-hd.webp
+builder-service-decor.png -> wedding-decor-hd.webp
+builder-service-entertainment.png -> wedding-sangeet-hd.webp
+builder-service-haldi.png -> 32705.png
+builder-service-catering.png -> wedding-reception-hd.webp
+builder-service-photography.png -> wedding-photography-hd.webp
+builder-service-venue.png -> f022b.png
+builder-experience-intimate.png -> wedding-reception-hd.webp
+builder-experience-classic.png -> wedding-garden-hd.webp
+builder-experience-grand.png -> wedding-hero-hd.webp
+builder-experience-royal.png -> f022b.png

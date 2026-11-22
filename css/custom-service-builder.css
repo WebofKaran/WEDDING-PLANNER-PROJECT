@@ -1,0 +1,4 @@
+@import url("./shared.css");
+
+/* Package builder entrypoint: option cards, pricing and sticky summary. */
+body[data-page="custom-service-builder.html"] {}
