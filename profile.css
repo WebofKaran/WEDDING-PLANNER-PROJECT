@@ -71,7 +71,7 @@ input: focus, select:focus, textarea:focus {
   outline-offset: 2px
 }
 [hidden] {
-  display: none !important
+  display: none
 }
 .container {
   width: min(1152px, calc(100% - 48px));
@@ -455,7 +455,7 @@ details p {
 }
 .wordmark {
   font: 54px Against, Georgia, serif;
-  color: #fff !important
+  color: #fff
 }
 .wordmark span {
   display: block;
@@ -1252,9 +1252,9 @@ to {
   scroll-behavior: auto
 }
 *, *:before, *:after {
-  animation-duration: .01ms !important;
-  animation-delay: 0s !important;
-  transition-duration: .01ms !important
+  animation-duration: .01ms;
+  animation-delay: 0s;
+  transition-duration: .01ms
 }
 .reveal.pending {
   opacity: 1;
@@ -1309,7 +1309,7 @@ img[src^="assets/wedding-"][src$="-hd.webp"] {
 
 @media (prefers-reduced-motion: reduce) {
   .text-reveal, .text-word {
-  animation: none !important;
+  animation: none;
   opacity: 1;
   transform: none;
   filter: none;
@@ -1361,14 +1361,14 @@ body[data-page="index.html"] .hero-bg {
 
 @media (prefers-reduced-motion: reduce) {
   .photo-motion.photo-wait, .photo-motion.photo-in {
-  animation: none !important;
+  animation: none;
   opacity: 1;
   translate: none;
   scale: none;
 }
 
   body[data-page="index.html"] .hero-bg {
-  animation: none !important;
+  animation: none;
   transform: none;
 }
 
@@ -1401,7 +1401,7 @@ body[data-page="index.html"] .hero-bg {
 
 @media (prefers-reduced-motion: reduce) {
   .about-photo.photo-motion.photo-wait, .about-photo.photo-motion.photo-in {
-  animation: none !important;
+  animation: none;
   opacity: 1;
   translate: none;
   scale: none;
@@ -1458,7 +1458,7 @@ body[data-page="index.html"] .hero-bg {
 /* Pause page entrances from the first paint;
   the intro itself continues. */
 html.js-motion body:has(.intro):not(.page-motion-started) :is(.text-reveal, .text-word, .hero-bg, .reveal, .photo-motion) {
-  animation-play-state: paused !important;
+  animation-play-state: paused;
 }
 
 /* Demo signup and login share the site's rose and ivory styling. */
