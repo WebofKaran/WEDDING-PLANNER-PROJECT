@@ -1266,7 +1266,6 @@ to {
 
 }
 
-
 /* Subtle softening for the seven generated wedding photographs. */
 img[src^="assets/wedding-"][src$="-hd.webp"] {
   filter: blur(0.45px);
@@ -1275,7 +1274,6 @@ img[src^="assets/wedding-"][src$="-hd.webp"] {
 .gallery-card:hover img[src^="assets/wedding-"][src$="-hd.webp"] {
   filter: blur(0.45px) brightness(.88);
 }
-
 
 /* Reusable soft text entrance: set --text-delay to stagger related elements. */
 .text-reveal {
@@ -1321,7 +1319,6 @@ img[src^="assets/wedding-"][src$="-hd.webp"] {
 }
 
 }
-
 
 /* Home photo frames: soft staggered entrances, preserving the image blur. */
 .photo-motion.photo-wait {
@@ -1380,7 +1377,6 @@ body[data-page="index.html"] .hero-bg {
 
 }
 
-
 /* About Elan: paired side entrances for the four surrounding photo frames. */
 .about-photo.photo-motion.photo-wait {
   translate: var(--photo-x, 0px) 24px;
@@ -1415,7 +1411,6 @@ body[data-page="index.html"] .hero-bg {
 }
 
 }
-
 
 /* Typewriter text reserves its complete layout while letters appear. */
 .typing-accessible {
@@ -1463,13 +1458,11 @@ body[data-page="index.html"] .hero-bg {
 
 }
 
-
 /* Pause page entrances from the first paint;
   the intro itself continues. */
 html.js-motion body:has(.intro):not(.page-motion-started) :is(.text-reveal, .text-word, .hero-bg, .reveal, .photo-motion) {
   animation-play-state: paused !important;
 }
-
 
 /* Demo signup and login share the site's rose and ivory styling. */
 .auth-demo-note {
@@ -1564,7 +1557,6 @@ html.js-motion body:has(.intro):not(.page-motion-started) :is(.text-reveal, .tex
   font-size: 14px;
   margin: 18px 0 0;
 }
-
 
 /* Account access stays outside the original, unchanged navbar. */
 .account-access {
@@ -1695,7 +1687,6 @@ html.js-motion body:has(.intro):not(.page-motion-started) :is(.text-reveal, .tex
 }
 
 }
-
 
 /* Navbar and fixed-size account button share one desktop header row. */
 .nav {
@@ -1831,6 +1822,3 @@ html.js-motion body:has(.intro):not(.page-motion-started) :is(.text-reveal, .tex
 }
 
 }
-
-
-
