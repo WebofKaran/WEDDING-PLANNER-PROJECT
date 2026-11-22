@@ -1,10 +1,10 @@
 @font-face {
   font-family: Svetze;
-  src: url('../assets/Svetze.otf')
+  src: url('assets/Svetze.otf')
 }
 @font-face {
   font-family: Against;
-  src: url('../assets/Against regular.ttf')
+  src: url('assets/Against regular.ttf')
 }
 * {
   box-sizing: border-box
